@@ -1,0 +1,364 @@
+@font-face {
+    src: url("../fonts/NunitoSans-Regular.ttf") format("truetype"); 
+    font-family: "NunitoSans Regular";
+}
+
+@font-face {
+    src: url("../fonts/YesevaOne-Regular.ttf") format("truetype"); 
+    font-family: "Yeseva One Regular";
+}
+.Nunito {
+    font-family: "Nunito Sans", "Arial", sans-serif;
+}
+.Yeseva{
+    font-family: "Yeseva One Regular", "Arial", serif;
+}
+.brown{
+    color: rgb(227, 184, 115);
+}
+.bg_brown{
+    background: rgb(227, 184, 115);
+}
+.bg_black{
+    background-color: rgb(24, 24, 24);
+}
+.bg_white{
+    color: #ffffff;
+}
+.bg_transp{
+    background: rgba(255, 255, 255, 0);
+}
+.white{
+    color: #ffffff;
+}
+.upper{
+    text-transform: uppercase;
+}
+body{
+    margin: 0;
+    font-family: "Nunito Sans", "Arial", sans-serif;
+}
+body * {
+    box-sizing: border-box;
+}
+.logo,
+.contact_phone{
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 15px;
+}
+.header-content{
+    height: 57px;
+    padding: 18px;
+}
+.jus_center{
+    justify-content: center;
+}
+.space_between{
+    justify-content: space-between;
+}
+.container{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    white-space: nowrap;
+    justify-content: space-around;
+}
+.side_padding{
+    display: flex;
+    padding-left: 18px;
+    padding-right: 18px;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+.group1{
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('../images/gr1bg.png');
+    height: 476px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.gr1_buttons{
+    margin-right: auto;
+    margin-left: auto;
+}
+.group1 h1{
+    margin-top:85px;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 132.83%;
+}
+.group1{
+    display: flex;
+}
+button{
+    width: 338px;
+    height: 51px;
+}
+.description{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 135.84%;
+}
+.calculate{
+    border: none;
+    margin-bottom: 26px;
+    margin-top: 32px;
+}
+.application{
+    border: rgb(255, 255, 255), 1px, solid;
+}
+.arrow_but{
+    width: 50px;
+    height: 50px;
+    border: none;
+}
+.center{
+    text-align: center;
+}
+.group2 h1{
+    padding-left: 43px;
+    padding-right: 44px;
+    padding-top: 36px;
+    margin-bottom: 22px;
+    margin-top: 0;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 132.83%;
+}
+.description2{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 14px;
+    padding-right: 15px;
+}
+.projects{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 36px;
+}
+.group2 p{
+    margin-bottom: 50px;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 158.48%;
+}
+.parametr h1{
+    padding: 0;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 138.6%;
+}
+.arrows{
+    width: 340px;
+    height: 242px;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.parametr{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+}
+.city { 
+    margin-right: 31px;
+    margin-bottom: 27px;
+    padding-right: 30px;
+    width: 129px;
+    height: 68px;
+}
+.apartment_area {
+    width: 160px;
+    height: 68px;
+}
+.repair_time{
+    margin-right: 31px;
+    width: 129px;
+    height: 68px;
+}
+.apartment_area {
+    width: 160px;
+    height: 68px;
+}
+
+.online_control{
+    display: flex;
+    justify-content: center;
+}
+.worker{
+    margin-top: 40px;
+    justify-content: center;
+    display: flex;
+}
+.play{
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) );
+    border: none;
+    width: 340px;
+    height: 207px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.Rectangle{
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+}
+.description3{
+    text-align: center;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 169.8%;
+    margin-top: 21px;
+}
+.contact{
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 61px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.plate .text {
+    color:rgba(255, 255, 255, 0.5);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.label {
+    cursor: pointer;
+}
+  .checkbox{
+    display: none;
+}
+  .fake{
+    display: inline-flex;
+    width: 18px;
+    height: 18px;
+    background: #E3B873;
+    color: #fff;
+    justify-content: center;
+}
+  .fake::before{
+    content:"\2714";
+    opacity: 0;
+    transition: .2s;
+}
+  .checkbox:checked + .fake::before{
+    opacity: 1;
+}
+.group4 button{
+    border: none;
+    margin-bottom: -25px;
+}
+label.text{
+    position: absolute;
+    padding-right: 300px;
+}
+
+.border_bottom{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none
+}
+.plate{
+    margin-top: 63px;
+}
+.plate input{
+    margin-top: 10px ;
+    width: 339px;
+    height: 45px;
+}
+.first-checkbox{
+    padding-top: 28px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 163.68%;
+    margin-bottom: 62px;
+}
+.li-type{  
+    color: rgb(149, 149, 149);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 169.8%;
+}
+.ul-type{
+    padding-top: 21px;
+    margin-top: -141px;
+    position: relative;
+    width: 270px;
+    height: 241px;
+    color: rgb(54, 54, 54);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 138.6%;
+    box-shadow: 5px 10px 20px 0px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+
+}
+.group5_1{
+    display: flex;
+    justify-content: center;
+}
+.divtype{
+    display: inline;
+    justify-content: center;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.group5-1 button{
+    border: none;
+    width: 190px;
+    height: 40px;
+}
+.types{
+    margin-top: 58px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+.whitespace{
+    height: 266px;
+
+}
+.fantasies{
+    margin-top: -205px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 260px;
+    margin-bottom: 24px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 138.6%;
+}
+.group7{
+    height: 1000px;
+}
+.map{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.group7 .Yeseva{
+    margin-left: auto;
+    margin-right: auto;
+    width: 310px;
+    margin-bottom: 24px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 138.6%;
+}
+.social{
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+}
