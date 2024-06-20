@@ -304,8 +304,14 @@ label.text{
     line-height: 138.6%;
     box-shadow: 5px 10px 20px 0px rgba(0, 0, 0, 0.05);
     background-color: #ffffff;
-
 }
+.ul-type div{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 138.6%;
+    margin-bottom: 10px;
+}
+
 .group5_1{
     display: flex;
     justify-content: center;
