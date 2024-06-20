@@ -305,11 +305,14 @@ label.text{
     box-shadow: 5px 10px 20px 0px rgba(0, 0, 0, 0.05);
     background-color: #ffffff;
 }
-.ul-type div{
+.ul-type :nth-child(1){
     font-size: 15px;
     font-weight: 400;
     line-height: 138.6%;
     margin-bottom: 10px;
+    list-style: none;
+    color: black;
+    margin-left: -15px;    
 }
 
 .group5_1{
