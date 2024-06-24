@@ -41,7 +41,6 @@
 body{
     margin: 0;
     font-family: "Nunito Sans", "Arial", sans-serif;
-    max-width: 1440px;
 }
 body * {
     box-sizing: border-box;
@@ -172,6 +171,31 @@ button{
     line-height: 46px;
     text-align: left;
 }
+@media screen and (min-width:1800px){
+    .max_2500px{
+        display: none;
+        
+    }
+    .group1 {
+        background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('../images/bg1_2500px.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 707px;
+        width: 2500px;
+        background-position: center;
+    }
+    .group1-1{
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        margin-left: 25%;
+    }
+    .group2 .side_padding{
+        align-content: center;
+        flex-wrap: wrap;
+    }
+}
 @media screen and (max-width: 768px) {
     .group1 {
         background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('../images/gr1bg375px.png');
@@ -192,7 +216,7 @@ button{
 /* моб */
 
 
-@media screen and (max-width:1300px){
+@media screen and (max-width:1440px){
     
     .pc {
         display: none;
@@ -365,10 +389,13 @@ button{
 
 /* Комп */
 
-@media screen and (min-width:1300px){
-        html{
+@media screen and (min-width:1440px){
+    html{
         display: flex;
         justify-content: center;
+    }
+    section{
+        margin: 0 auto;
     }
     .hide_when_1300px {
         display: none;
@@ -439,14 +466,13 @@ button{
         display: flex;
         flex-wrap: wrap;
         width: 1171px;
-        height: 482px;
         margin: 107px 134px 90px 134px;
-    }
-    .group2-2{
-        display: flex;
-        flex-wrap: wrap;
         justify-content: space-between;
-        height: 858px;
+    }
+    .group2 .side_padding{
+        height: 1008px;
+        justify-content: flex-start;
+        display: flex;
     }
     .description2{
         font-size: 14px;
@@ -502,7 +528,7 @@ button{
         flex-wrap: wrap;
     }
     .group3{
-        margin-top: -320px;
+        margin-top: -250px;
     }
     .description3{
         text-align: center;
@@ -876,6 +902,14 @@ button{
         display: flex;
         width: 500px;
         margin: 0 auto 26px auto;
+    }
+    .online_control{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: -30px auto 0 auto;
+        width: 196px;
+        height: 66px;
     }
 }
 /* Комп */
